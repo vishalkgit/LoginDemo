@@ -30,7 +30,7 @@ namespace LoginDemoForApp.Controllers
             return View();
         }
 
-
+        [HttpPost]
         public IActionResult Logout()
         {
             HttpContext.Session.Clear();
